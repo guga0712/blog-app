@@ -1,8 +1,9 @@
 import type { NextPage } from 'next'
+import { Introduction } from '../components/Introduction'
 
 const Home: NextPage = () => {
   return (
-    <h1>Branch Mateuzao</h1>
+    <Introduction />
   )
 }
 
