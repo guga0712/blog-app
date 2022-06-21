@@ -8,10 +8,10 @@ export function Introduction() {
         <>
             <Flex
                 marginX="100px"
-                height="100vh"
+                height="calc(100vh - 80px)"
                 align="center"
                 justifyContent="center"
-                // border="1px solid red"
+                border="1px solid red"
                 flexDirection="column"
                 gap="25px">
                 <Heading textAlign="center">Bem vindo ao <br /><Text as="span" color="cyan.500">Nosso Blog!</Text></Heading>
