@@ -1,4 +1,5 @@
 import { Flex, Link } from "@chakra-ui/react";
+import LinkHeader from "../LinkHeader";
 import ToggleColorMode from "../ToggleColorMode";
 
 export function Header() {
@@ -9,21 +10,13 @@ export function Header() {
             marginX="100px"
             alignItems="center"
             justifyContent="center"
-            border="1px solid red"
+            // border="1px solid red"
             gap="50px"
             position="relative"
         >
-
-            <Link
-                bg="transparent"
-                _hover={{ textDecoration: "none" }}>Catalogo</Link>
-            <Link
-                bg="transparent"
-                _hover={{ textDecoration: "none" }}>Inicio</Link>
-
-            <Link
-                bg="transparent"
-                _hover={{ textDecoration: "none" }}>Sobre</Link>
+            <LinkHeader title="Catálogo" />
+            <LinkHeader title="Inicio" />
+            <LinkHeader title="Sobre" />
             <ToggleColorMode />
 
         </Flex >

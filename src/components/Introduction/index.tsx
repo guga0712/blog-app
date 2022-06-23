@@ -12,7 +12,7 @@ export function Introduction() {
                 height="calc(100vh - 80px)"
                 align="center"
                 justifyContent="center"
-                border="1px solid red"
+                // border="1px solid red"
                 flexDirection="column"
                 gap="25px">
                 <Heading
