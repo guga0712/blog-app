@@ -9,7 +9,6 @@ const ToggleColorMode = () => {
             onClick={() => toggleColorMode()}
             position="absolute"
             right={0}
-            m="1rem"
         >
             {colorMode === "dark" ? (
                 <SunIcon color="cyan.600" />

@@ -1,4 +1,5 @@
-import { Flex, Link } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
+import Link from "next/link";
 import LinkHeader from "../LinkHeader";
 import ToggleColorMode from "../ToggleColorMode";
 
@@ -14,9 +15,10 @@ export function Header() {
             gap="50px"
             position="relative"
         >
-            <LinkHeader title="Catálogo" />
-            <LinkHeader title="Inicio" />
-            <LinkHeader title="Sobre" />
+
+            <LinkHeader title="Catálogo" href="/catalog" />
+            <LinkHeader title="Inicio" href="/" />
+            <LinkHeader title="Sobre" href="/sobre" />
             <ToggleColorMode />
 
         </Flex >
