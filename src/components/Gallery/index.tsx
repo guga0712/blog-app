@@ -1,11 +1,20 @@
 import { Button, Flex, Heading, Link as ChakraLink } from "@chakra-ui/react";
 import Link from "next/link";
 import PreviewArticle from "../PreviewArticle";
-import { ArrowRightIcon } from '@chakra-ui/icons'
+import { ArrowForwardIcon } from '@chakra-ui/icons'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Gallery() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
     return (
         <Flex
+            data-aos="fade-up"
+            data-aos-delay="500"
             marginX="100px"
             height="100vh"
             align="center"
@@ -23,7 +32,7 @@ export default function Gallery() {
             <Link href="/catalog">
                 <ChakraLink
                     fontWeight="600"
-                    _hover={{ textDecoration: "none", color: "cyan.600" }}>Clique para ver mais matérias <ArrowRightIcon />  </ChakraLink>
+                    _hover={{ textDecoration: "none", color: "cyan.600" }}>Clique para ver mais matérias <ArrowForwardIcon />  </ChakraLink>
             </Link>
         </Flex>
     );
