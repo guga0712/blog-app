@@ -1,6 +1,7 @@
 import { Button, Flex, Heading, Link as ChakraLink } from "@chakra-ui/react";
 import Link from "next/link";
 import PreviewArticle from "../PreviewArticle";
+import { ArrowRightIcon } from '@chakra-ui/icons'
 
 export default function Gallery() {
     return (
@@ -22,7 +23,7 @@ export default function Gallery() {
             <Link href="/catalog">
                 <ChakraLink
                     fontWeight="600"
-                    _hover={{ textDecoration: "none", color: "cyan.600" }}>Clique para ver mais Matérias </ChakraLink>
+                    _hover={{ textDecoration: "none", color: "cyan.600" }}>Clique para ver mais matérias <ArrowRightIcon />  </ChakraLink>
             </Link>
         </Flex>
     );
