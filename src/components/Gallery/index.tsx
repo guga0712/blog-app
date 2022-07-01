@@ -14,7 +14,7 @@ export default function Gallery() {
     return (
         <Flex
             data-aos="fade-up"
-            data-aos-delay="500"
+            data-aos-delay="200"
             marginX="100px"
             height="100vh"
             align="center"
@@ -24,7 +24,7 @@ export default function Gallery() {
             gap="50px"
         >
             <Heading>Nossas matérias</Heading>
-            <Flex w="100%" justifyContent="space-between">
+            <Flex w="100%" justifyContent="center" gap="50px">
                 <PreviewArticle title="Matéria 1" resume="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor" href="/catalog/articles/article1" />
                 <PreviewArticle title="Matéria 2" resume="Lorem ipsum dolor sit amet,   consectetur adipiscing elit, sed diam nonumy eirmod tempor" href="/catalog/articles/article2" />
                 <PreviewArticle title="Matéria 3" resume="Lorem ipsum dolor sit amet,   consectetur adipiscing elit, sed diam nonumy eirmod tempor" href="/catalog/articles/article3" />

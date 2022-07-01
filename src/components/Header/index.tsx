@@ -11,11 +11,11 @@ export function Header() {
             marginX="100px"
             alignItems="center"
             justifyContent="center"
-            // border="1px solid red"
+            borderBottom="1px solid"
+            borderColor="gray.600"
             gap="50px"
             position="relative"
         >
-
             <LinkHeader title="Catálogo" href="/catalog" />
             <LinkHeader title="Inicio" href="/" />
             <LinkHeader title="Sobre" href="/sobre" />

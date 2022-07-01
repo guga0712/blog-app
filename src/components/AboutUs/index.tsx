@@ -1,10 +1,18 @@
 import { Flex, Heading, Text, Image, Link } from "@chakra-ui/react";
-import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { useEffect } from "react";
 import Socials from "./Socials";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function AboutUs() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
     return (
         <Flex
+            data-aos="fade-up"
+            data-aos-delay="200"
             marginX="100px"
             height="100vh"
             align="center"
