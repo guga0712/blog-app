@@ -5,10 +5,10 @@ import BackToCatalog from "../../../components/BackToCatalog";
 import Footer from "../../../components/Footer";
 import { Header } from "../../../components/Header";
 
-export default function Article1() {
+export default function Article2() {
     const article = {
         title: "Para que serve o create-react-app (CRA)",
-        resume: 'O create-react-app é um conjunto de ferramentas e funcionalidades pré-configuradas para que você possa iniciar um projeto React.'
+        resume: "O create-react-app é um conjunto de ferramentas e funcionalidades pré-configuradas para que você possa iniciar"
     }
     return (
         <>
