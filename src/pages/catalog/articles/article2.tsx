@@ -1,7 +1,7 @@
 import { Code, Flex, Heading, Text } from "@chakra-ui/react";
-import { resolveMotionValue } from "framer-motion";
 import Head from "next/head";
 import BackToCatalog from "../../../components/BackToCatalog";
+import CommentsSection from "../../../components/CommentsSection";
 import Footer from "../../../components/Footer";
 import { Header } from "../../../components/Header";
 
@@ -16,7 +16,7 @@ export default function Article2() {
                 <title>{article.title}</title>
             </Head>
             <Header />
-            <Flex marginX="100px" align="center" flexDirection="column" mb="50px">
+            <Flex marginX="100px" align="center" flexDirection="column" mb="25px">
                 <Heading mt="50px" mb="50px" textAlign="center">{article.title}</Heading>
                 <Text textAlign="center">
                     O create-react-app é um conjunto de ferramentas e funcionalidades pré-configuradas para que você possa iniciar um projeto React.
@@ -37,6 +37,7 @@ export default function Article2() {
                 </Text>
                 <BackToCatalog />
             </Flex >
+            <CommentsSection />
             <Footer />
         </>
     );

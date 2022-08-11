@@ -10,13 +10,13 @@ interface PreviewArticleProps {
 
 export default function PreviewArticle({ title, resume, href }: PreviewArticleProps) {
     return (
-        <Box borderWidth='1px' borderColor='cyan.300' borderRadius='lg' w="400px" h="200px" textAlign="center" p="6" >
+        <Box borderWidth='1px' borderColor='cyan.300' borderRadius='lg' w="400px" h="200px" textAlign="center" >
             <Flex
                 flexDirection="column"
-                justifyContent="center"
+                justifyContent="space-between"
                 alignItems="center"
-                gap="15px"
-                h="100%">
+                h="100%"
+                padding="4">
                 <Heading fontSize="2xl">{title}</Heading>
                 <Text width="100%" >{resume}... <Link href={href}><ChakraLink _hover={{ textDecoration: "none", color: "cyan.600" }} fontWeight="bold"><br />Ver mais <ArrowForwardIcon /></ChakraLink></Link></Text>
             </Flex>

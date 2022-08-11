@@ -26,7 +26,7 @@ export default function Gallery() {
             <Heading>Nossas matérias</Heading>
             <Flex w="100%" justifyContent="center" gap="50px">
                 <PreviewArticle title="Matéria 1" resume="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor" href="/catalog/articles/article1" />
-                <PreviewArticle title="" resume="Lorem ipsum dolor sit amet,   consectetur adipiscing elit, sed diam nonumy eirmod tempor" href="/catalog/articles/article2" />
+                <PreviewArticle title="Matéria 2" resume="Lorem ipsum dolor sit amet,   consectetur adipiscing elit, sed diam nonumy eirmod tempor" href="/catalog/articles/article2" />
                 <PreviewArticle title="Matéria 3" resume="Lorem ipsum dolor sit amet,   consectetur adipiscing elit, sed diam nonumy eirmod tempor" href="/catalog/articles/article3" />
             </Flex>
             <Link href="/catalog">

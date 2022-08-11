@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Our blog</title>
+        <title>Início</title>
         <link rel="icon" type="image/png" href="/blog.png" />
       </Head>
       <Header />

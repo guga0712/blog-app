@@ -9,3 +9,6 @@ const articles = [
     { id: 2, title: '', resume: '' },
     { id: 3, title: 'Extreme Programming', resume: 'Continuando a ideia de simplesmente colocar aqui o que venho pensando e analisando, para rever futuramente.' }
 ]
+
+
+

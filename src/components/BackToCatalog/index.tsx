@@ -8,7 +8,8 @@ export default function BackToCatalog() {
             <ChakraLink
                 fontWeight="600"
                 mt="25px"
-                _hover={{ textDecoration: "none", color: "cyan.600" }}> <ArrowBackIcon /> Voltar ao Catálogo</ChakraLink>
+                _hover={{ textDecoration: "none", color: "cyan.600" }}
+                fontSize="3xl"> <ArrowBackIcon /> Voltar ao Catálogo</ChakraLink>
         </Link>
     );
 }
